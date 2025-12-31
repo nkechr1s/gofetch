@@ -126,7 +126,7 @@ await client.get('/users/:id', params)
 // GET /users/123
 
 // Request body
-const body = { name: 'Nikos', email: 'Nikos@example.com' }
+const body = { name: 'Nikos', email: 'nikos@example.com' }
 await client.post('/users', null, body)
 ```
 

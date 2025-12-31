@@ -67,7 +67,7 @@ fmt.Printf("Retrieved %d users\n", len(users))
 ```go
 newUser := User{
     Name:  "Nikos Doe",
-    Email: "Nikos@example.com",
+    Email: "nikos@example.com",
 }
 
 var createdUser User
